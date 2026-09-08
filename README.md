@@ -25,4 +25,4 @@ hp, hc = get_td_waveform(
 )
 ```
 
-NOTE: Replace `mywaveform` with your model name 
+NOTE: Replace `mywaveform` in setup.py with your model name 
