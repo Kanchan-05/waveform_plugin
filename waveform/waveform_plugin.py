@@ -3,6 +3,12 @@ import numpy
 import lal 
 import pycbc.types
 
+"""
+Replace the function below with your custom waveform generator.
+The function should accept waveform parameters through **params
+and return the plus (hp) and cross (hc) polarizations as
+PyCBC TimeSeries objects. 
+"""
 
 def gen_my_waveform(**params): 
 
