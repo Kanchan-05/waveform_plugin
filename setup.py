@@ -18,6 +18,7 @@ setup(
     packages=find_packages(),
     python_requires='>=3.11',
 
+    # NOTE: Replace "mywaveform" with your waveform model name 
     entry_points={
         "pycbc.waveform.td": [
         "mywaveform = waveform.waveform_plugin:gen_my_waveform", 
