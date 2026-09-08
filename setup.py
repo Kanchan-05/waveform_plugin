@@ -20,7 +20,7 @@ setup(
 
     entry_points={
         "pycbc.waveform.td": [
-        "nrsxs = waveform.waveform_plugin:gen_my_waveform", 
+        "mywaveform = waveform.waveform_plugin:gen_my_waveform", 
     ],
     },
 
